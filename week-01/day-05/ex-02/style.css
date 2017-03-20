@@ -1,0 +1,32 @@
+main {
+  font-family: courier;
+  color: #fff;
+  text-align: center;
+  line-height: 1.2;
+  font-size: 16px;
+}
+
+div {
+  max-width: 270px;
+  box-sizing: border-box;
+  background: url(duck.png) no-repeat center;
+  padding: 10px 20px;
+  margin: 20px;
+}
+
+.left-duck {
+  background-color: #ff572b;
+  background-size: 80px;
+  background-position: left;
+}
+
+.middle-duck {
+  background-color: #6e007a;
+  background-size: 80%;
+}
+
+.right-duck {
+  background-color: #7f7f7f;
+  background-size: 75px;
+  background-position: right bottom;
+}
