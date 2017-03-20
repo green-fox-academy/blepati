@@ -1,0 +1,29 @@
+div {
+  width: 600px;
+  margin: 40px 30px;
+}
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  color: orange;
+}
+
+.square {
+  list-style-type: square;
+  color: blue;
+}
+
+.disc {
+  list-style-type: disc;
+}
+
+.disc li:first-child {
+  color: red;
+}
+
+.disc, ol {
+  color: #000;
+}

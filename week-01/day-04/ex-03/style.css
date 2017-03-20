@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.blue-box {
+  box-sizing: border-box;
+  border: 13px solid #4285f4;
+  width: 380px;
+  height: 290px;
+  margin: 5px;
+  text-align: center;
+
+}
+
+.box1 {
+  background-color: #e67676;
+}
+
+.box2 {
+  background-color: #a9e6e6;
+}
+
+p {
+  font-size: 36px;
+  font-family: sans-serif;
+  color: #fff;
+  padding: 45px;
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.blue-box {
+  box-sizing: border-box;
+  width: 380px;
+  height: 554px;
+  border: 15px solid #664df9;
+}
+
+.box {
+  width: 350px;
+  height: 131px;
+  text-align: center;
+}
+
+.box1 {
+  background-color: #eb6c6d;
+}
+
+.box2 {
+  background-color: #e5ff51;
+}
+
+.box3 {
+  background-color: #a2e8e8;
+}
+
+.box4 {
+  background-color: #8571e7;
+}
+
+p {
+  font-size: 36px;
+  font-family: sans-serif;
+  color: #fff;
+  padding: 45px;
+}
