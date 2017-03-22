@@ -1,8 +1,7 @@
 s = [1, 2, 3, 8, 5, 6]
 
 s.pop(3)
-s.append(4)
-s.sort()
+s.insert(3, 4)
 print(s[3])
 
 
