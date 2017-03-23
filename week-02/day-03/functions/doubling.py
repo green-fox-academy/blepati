@@ -1,14 +1,10 @@
 ak = 123
 
-def doubling1():
-    print(ak * 2)
+def doubling1(orig):
+    return orig * 2
 
-doubling1()
+print(doubling1(ak))
 
-def doubling2():
-    print((str(ak) + " ") * 2)
-
-doubling2()
 
 
 # - Create a variable named `ak` and assign the value `123` to it

@@ -1,8 +1,8 @@
 def factorio(num):
-    if num == 0:
-        return 1
-    else:
-        return num * factorio(num - 1)
+    a = 1
+    for i in range(1, num + 1):
+        a = a * i
+    return a
 
 print(factorio(6))
 
