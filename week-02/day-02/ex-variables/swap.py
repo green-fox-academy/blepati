@@ -5,7 +5,5 @@ c = b
 b = a
 a = c
 
-
-
 print(a)
 print(b)
