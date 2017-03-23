@@ -1,6 +1,5 @@
 abc = ["first", "second", "third"]
 
-
 print(abc)
 
 # - Create a variable named `abc`
