@@ -5,6 +5,8 @@ students = [
         {'name': 'Zsombor', 'age': 12, 'candies': 5}
 ]
 
+
+
 # create a function that takes a list of students and prints:
 # - Who has got more candies than 4 candies
 
