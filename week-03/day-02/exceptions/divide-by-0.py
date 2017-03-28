@@ -1,4 +1,3 @@
-
 def kacsa(num):
     divider = 10
     try:
@@ -8,6 +7,7 @@ def kacsa(num):
         print("fail")
 
 kacsa(0)
+
 # create a function that takes a number,
 # divides ten with it,
 # and prints the result.
