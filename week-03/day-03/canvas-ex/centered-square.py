@@ -5,7 +5,7 @@ root = Tk()
 canvas = Canvas(root, width='300', height='300')
 canvas.pack()
 
-lime_box = canvas.create_rectangle(145, 145, 155, 155, fill='#20d1ac')
+box = canvas.create_rectangle(145, 145, 155, 155, fill='#20d1ac')
 # draw a green 10x10 square to the center of the canvas.
 
 root.mainloop()
