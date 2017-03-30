@@ -2,8 +2,8 @@
 
 def counter(number):
     print(number)
-    if number <= 1: #base case
-        return 1
+    if number == 0: #base case
+        return 0
     else:
         return number - counter(number-1)
 
