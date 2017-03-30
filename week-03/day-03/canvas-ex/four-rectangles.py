@@ -10,7 +10,7 @@ def four_rec(x, y, z, color):
 
 four_rec(27, 34, 10, "red")
 four_rec(10, 134, 100, "blue")
-four_rec(100, 100, 30, "#ededed")
+four_rec(100, 100, 30, "#20d1ac")
 four_rec(150, 120, 70, "yellow")
 # draw four different size and color rectangles.
 
