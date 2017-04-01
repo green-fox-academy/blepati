@@ -7,5 +7,4 @@ def bunny_ears(bunnies):
     else:
         return 2 + bunny_ears(bunnies - 1)
 
-
 print(bunny_ears(14))
