@@ -8,7 +8,14 @@ students = [
     {'name': 'Gerzson', 'age': 10, 'candies': 1},
 ]
 
-print(students)
+#print(students[0]['candies'])
+def candy_find(s):
+    candy = 0
+    for student in s:
+        candy += student['candies']
+    return candy
+
+print(candy_find(students))
 # create a function that takes a list of students and prints:
 # - how many candies are owned by students
 
