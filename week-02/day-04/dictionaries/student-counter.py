@@ -1,5 +1,5 @@
 
-students = [
+zodiac = [
     {'name': 'Teodor', 'age': 3, 'candies': 2},
     {'name': 'Rezso', 'age': 9.5, 'candies': 2},
     {'name': 'Zsombor', 'age': 12, 'candies': 5},
@@ -14,7 +14,7 @@ def candy_find(s):
         candy += student['candies']
     return candy
 
-print(candy_find(students))
+print(candy_find(zodiac))
 # create a function that takes a list of students and prints:
 # - how many candies are owned by students
 def who_have_candies(s):
@@ -24,16 +24,35 @@ def who_have_candies(s):
             age += student['age']
     return age
 
-print(who_have_candies(students))
+print(who_have_candies(zodiac))
 
-def most_candies(nums):
-    num_big = students[0]['candies']
-    for num in nums:
-        if num['candies'] > num_big:
-            num_big = num['candies']
+def most_candies(s):
+    num_big = s[0]['candies']
+    for student in s:
+        if student['candies'] > num_big:
+            num_big = student['candies']
     return num_big
 
-print(most_candies(students))
+print(most_candies(zodiac))
 
+def most_candie_name(s):
+    name = s[0]['name']
+    num_big = s[0]['candies']
+    for student in s:
+        if student['candies'] > num_big:
+            num_big = student['candies']
+            name = student['name']
+    return name
+
+print(most_candie_name(zodiac))
+
+def most_candie_name_enhanced(s):
+    student_with_most_candies = s[0]
+    for student in s:
+        if student['candies'] > student_with_most_candies['candies']:
+            student_with_most_candies = student
+    return student_with_most_candies['name']
+
+print(most_candie_name_enhanced(zodiac))
 # create a function that takes a list of students and prints:
 # - Sum of the age of people who have lass than 5 candies
