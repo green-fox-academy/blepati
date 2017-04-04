@@ -54,7 +54,6 @@ class Mentor:
 mentor = Mentor()
 mentor.introduce()
 
-
 class Sponsor:
     def __init__(self, name = "Tom Jones", age = 35, gender = "male", company = "RGB"):
         self.name = name
