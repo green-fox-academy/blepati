@@ -1,4 +1,4 @@
-class Flower():
+class Flower(object):
     def __init__(self, color = "white", amount = 5):
         self.color = color
         self.amount = amount
