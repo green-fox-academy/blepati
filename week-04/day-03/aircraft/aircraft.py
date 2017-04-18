@@ -29,13 +29,13 @@ class F16(Aircraft):
     def __init__(self):
         super().__init__("F16", 8, 30)
 
-class F30(Aircraft):
+class F35(Aircraft):
     def __init__(self):
-        super().__init__("F30", 12, 50)
+        super().__init__("F35", 12, 50)
 
-aircraft = F16()
+"""aircraft = F16()
 print(aircraft.refill(100))
 print(aircraft.fight())
 print(aircraft.refill(10))
 aircraft.get_type()
-aircraft.get_status()
+aircraft.get_status()"""
