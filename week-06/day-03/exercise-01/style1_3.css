@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 800px;
+  height: 200px;
+}
+
+.item {
+  height: 200px;
+}
+
+.green {
+  width: 25%;
+  background-color: #51d400;
+}
+
+.yellow {
+  width: 50%;
+  background-color: #ffd62a;
+}
+
+.purple {
+  width: 25%;
+  background-color: #b02aff;
+}
