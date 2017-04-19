@@ -31,6 +31,15 @@ class Song(object):
             rate = 1
         self.ratings.append(rate)
 
+    def avg_rating(self):
+        sum_rating = 0
+        for rating in self.ratings:
+            sum_rating += rating
+        try:
+            return sum_rating/len(self.ratings)
+        except ZeroDivisonError:
+            return 0
+
 class Jukebox(object):
     def __init__(self):
         self.list_of_songs = []
