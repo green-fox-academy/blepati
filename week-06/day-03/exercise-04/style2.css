@@ -5,12 +5,11 @@
 }
 
 .wrapper {
-  margin: auto;
-  width: 950px;
-  margin-top: 40px;
+  width: 100%;
 }
 
 .navbar {
+  position: fixed;
   display: flex;
   justify-content: flex-start;
   width: 100%;
@@ -29,20 +28,31 @@
   margin-left: 15px;
   background-color: #a9e6e6;
   width: 80px;
-  height: 30px;
+  height: 35px;
 }
 .content {
+  padding-top: 95px;
+  width: 92%;
+  margin: 0 4%;
   display: flex;
   justify-content: flex-start;
 }
 
 .main-content {
-  width: 70%;
-  height: 500px;
+  width: 69%;
+  margin: 0 1% 0 0;
+  height: 800px;
   background-color: #ffd62a;
 }
 
 .sidebar {
   width: 30%;
   background-color: #59e03e;
+}
+
+.footer {
+  height: 80px;
+  width: 92%;
+  margin: 1% 4% 2%;
+  background-color: #ededed;
 }
