@@ -48,7 +48,22 @@ class Jukebox(object):
         new_song = song
         self.list_of_songs.append(new_song)
 
+    def songs_of_artist(self, author):
+        songs_of_artist = []
+        for song in self.list_of_songs:
+            if author == song.author:
+                songs_of_artist.append(song.title)
+        return songs_of_artist
+
 song1 = Song("Nneka", "Hartbeat")
+song2 = Song("Nneka", "Restless")
+song3 = Song("Akua Naru", "The world is listening")
+song1.add_rate(5)
+song1.add_rate(3)
+print(song1.avg_rating())
 jukebox = Jukebox()
 jukebox.add_song(song1)
+jukebox.add_song(song2)
+jukebox.add_song(song3)
 print(jukebox.list_of_songs)
+print(jukebox.songs_of_artist("Nneka"))
