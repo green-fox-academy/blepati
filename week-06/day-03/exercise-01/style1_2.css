@@ -11,24 +11,25 @@ body {
 .container {
   display: flex;
   justify-content: flex-start;
-  width: 610px;
+  width: 800px;
   height: 200px;
-  /*display: flex;*/
 }
 
 .item {
-  width: 200px;
   height: 200px;
 }
 
 .green {
+  width: 25%;
   background-color: #51d400;
 }
 
 .yellow {
+  width: 50%;
   background-color: #ffd62a;
 }
 
 .purple {
+  width: 25%;
   background-color: #b02aff;
 }
