@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;;
+  background-color: #ffd62a;
+  width: 700px;
+  height: 300px;
+}
+
+.item {
+  list-style-type: none;
+  align-self: center;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: #b02aff;
+}
+
+.item:last-child {
+  margin-right: 0;
+}
