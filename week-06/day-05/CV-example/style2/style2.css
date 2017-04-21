@@ -25,7 +25,7 @@ article {
 }
 
 section {
-  padding: 40px 40px 20px 30px;
+  padding: 50px 40px 35px 30px;
 }
 
 h1 {
@@ -45,7 +45,11 @@ h2, h3 {
 h2 {
   font-size: 24px;
   text-transform: uppercase;
+  line-height: 32px;
   letter-spacing: 2px;
+  background-color: rgba(32,209,172, 0.4);
+  width: 300px;
+  padding: 5px 10px 0;
 }
 
 h3 {
@@ -62,7 +66,8 @@ h3 {
 .basic-info {
   display: flex;
   justify-content: flex-end;
-  font-size: 20px;
+  font-size: 25px;
+  margin: 40px;
 }
 
 .italic-details {
@@ -79,6 +84,21 @@ h3 {
   display: block;
   font-size: 72px;
   margin-left: 190px;
+}
+
+.section-flex {
+  display: flex;
+}
+
+.right{
+  justify-content: flex-end;
+}
+
+.img-container {
+  width: 300px;
+  height: 250px;
+  align-self: flex-end;
+  margin-left: 20%;
 }
 
 .bubble {
