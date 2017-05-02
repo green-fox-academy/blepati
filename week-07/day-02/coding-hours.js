@@ -9,10 +9,10 @@
 // Print the percentage of the coding hours in the semester if the average
 // work hours weekly is 52
 
-var codingHours = 6
-var studyDays = 5
-var studyWeeks = 17
-var workingHours = 52
+var codingHours = 6;
+var studyDays = 5;
+var studyWeeks = 17;
+var workingHours = 52;
 
 console.log(codingHours * studyDays * studyWeeks)
 console.log(100/(workingHours / (codingHours * studyDays)))

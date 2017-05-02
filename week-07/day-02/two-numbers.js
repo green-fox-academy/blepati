@@ -1,8 +1,8 @@
 'use strict';
 
 // Create a program that prints a few operations on two numbers: 22 and 13
-var a = 22
-var b = 13
+var a = 22;
+var b = 13;
 
 // Print the result of 13 added to 22
 console.log(a + b)
