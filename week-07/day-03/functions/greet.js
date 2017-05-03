@@ -9,9 +9,9 @@ var al = 'Greenfox';
 
 function greet(name) {
   if (typeof name == 'undefined') {
-    console.log('greetings, my friend')
+    console.log('greetings, my friend');
   } else {
-    console.log('Greetings,', name)
+    console.log('Greetings,', name);
   }
 }
 
