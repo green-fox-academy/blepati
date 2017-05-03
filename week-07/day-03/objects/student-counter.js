@@ -12,14 +12,26 @@ var students = [
 // create a function that takes a list of students and logs:
 // - how many candies are owned by students
 function candyCounter() {
-    var allCandy = 0;
-    for (var i in students) {
-      allCandy += students[i].candies;
-    }
-    return allCandy;
+  var allCandy = 0;
+  for (var key in students) {
+    allCandy += students[key].candies;
+  }
+  return allCandy;
 }
 
 console.log(candyCounter())
 
 // create a function that takes a list of students and logs:
-// - Sum of the age of people who have lass than 5 candies
+// - Sum of the age of people who have less than 5 candies
+
+function candyless() {
+  var candylessKids = [];
+  for (var key in students) {
+    if (students[key].candies < 5) {
+      candylessKids.push(students[key].name);
+    }
+  }
+  return candylessKids;
+}
+
+console.log(candyless())
