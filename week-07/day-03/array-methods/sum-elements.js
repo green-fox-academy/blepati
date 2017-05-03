@@ -4,7 +4,7 @@
 var r = [54, 23, 66, 12];
 
 function sumOfValues(ar) {
-  return ar[1] + ar[2]
+  return ar[1] + ar[2];
 }
 
 console.log(sumOfValues(r))

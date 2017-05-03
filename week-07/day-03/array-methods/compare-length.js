@@ -10,9 +10,11 @@ var p2 = [4, 5];
 
 function compareArrays(ar1, ar2) {
   if (ar2.length > ar1.length) {
-    return'`p2` has more elements than `p1`';
+    return '`p2` has more elements than `p1`';
+  } else if (ar2.length < ar1.length) {
+    return '`p1` has more elements than `p2`';
   } else {
-    return'`p1` has more elements than `p2`';
+    return 'maybe they are empty or have the same amount of value'
   }
 }
 
