@@ -12,7 +12,10 @@ var students = [
 // create a function that takes a list of students and logs:
 // - how many candies are owned by students
 function candyCounter() {
-    var allCandy = students[3].candies;
+    var allCandy = 0;
+    for (var i in students) {
+      allCandy += students[i].candies;
+    }
     return allCandy;
 }
 
