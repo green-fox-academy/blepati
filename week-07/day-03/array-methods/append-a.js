@@ -12,6 +12,6 @@ var nimals = ["kuty", "macsk", "cic", "lib"];
 
 var nimals = nimals.map(function(el) {
   return el + 'a';
-  })
+});
 
 console.log(nimals)
