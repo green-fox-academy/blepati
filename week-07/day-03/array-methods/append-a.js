@@ -6,6 +6,12 @@
 
 var nimals = ["kuty", "macsk", "cic", "lib"];
 
-nimals.forEach(function(ani) {
-  console.log(ani + 'a')
-});
+//nimals.forEach(function(ani) {
+//  console.log(ani + 'a');
+//});
+
+var nimals = nimals.map(function(el) {
+  return el + 'a';
+  })
+
+console.log(nimals)
