@@ -14,3 +14,6 @@ var secAlert = document.getElementsByClassName('other');
 //alert(secAlert[0].textContent);
 
 alertContent[0].innerHTML = "New content";
+
+var lastCont = document.getElementsByClassName('result');
+lastCont[0].innerHTML = firstCont[0].textContent;
