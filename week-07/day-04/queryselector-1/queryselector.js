@@ -19,7 +19,7 @@ var king = document.getElementById('b325');
 console.log(king.textContent);
 
 var conceited = document.querySelector('.b326');
-//alert(conceited.textContent);
+alert(conceited.textContent);
 
 var businessLamp = document.querySelectorAll('.big');
 businessLamp.forEach(function(el, i) {
@@ -32,3 +32,15 @@ conceitedKing.push(conceited);
 conceitedKing.forEach(function(el, i) {
   alert(conceitedKing[i].textContent);
 });
+
+var noBusiness = [];
+var lamp = document.querySelector('.b329');
+noBusiness.push(king);
+noBusiness.push(conceited);
+noBusiness.push(lamp);
+noBusiness.forEach(function(el, i) {
+  console.log(noBusiness[i].textContent);
+});
+
+var allBizniss = businessLamp[0];
+console.log(allBizniss.textContent);
