@@ -1,9 +1,11 @@
-/*1. Alert the content of the heading.
+/*1. Alert the content of the heading.--
 2. Write the content of the first paragraph to the console.
 3. Alert the content of the second paragraph.
 4. Replace the heading's content with 'New content'.
 5. Replace the last paragraph's content with the first paragraph's content*/
 
-var alContent = document.getElementsByTagName('h1')
+var alertContent = document.getElementsByTagName('h1');
+alert(alertContent[0].textContent);
 
-alert(alContent[1].textContent);
+var firstCont = document.getElementsByTagName('p');
+console.log(firstCont[0].textContent);
