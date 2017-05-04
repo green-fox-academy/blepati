@@ -17,3 +17,10 @@ show the result in an 'alert' window.*/
 
 var king = document.getElementById('b325');
 console.log(king.textContent);
+
+var conceited = document.querySelector('.b326');
+//alert(conceited.textContent);
+
+var businessLamp = document.querySelectorAll('.big');
+console.log(businessLamp[0].textContent);
+console.log(businessLamp[1].textContent);
