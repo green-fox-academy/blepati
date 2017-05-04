@@ -22,5 +22,13 @@ var conceited = document.querySelector('.b326');
 //alert(conceited.textContent);
 
 var businessLamp = document.querySelectorAll('.big');
-console.log(businessLamp[0].textContent);
-console.log(businessLamp[1].textContent);
+businessLamp.forEach(function(el, i) {
+  console.log(businessLamp[i].textContent);
+});
+
+var conceitedKing = [];
+conceitedKing.push(king);
+conceitedKing.push(conceited);
+conceitedKing.forEach(function(el, i) {
+  alert(conceitedKing[i].textContent);
+});
